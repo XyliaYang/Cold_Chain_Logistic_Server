@@ -9,13 +9,13 @@ go to client.[click here](https://github.com/LizYang13/Cold_Chain_logistic)
 ###  登录
 - 请求参数
 
-|字段  | 描述 | 类型||
+|字段  | 描述 | 类型 |
 |-----|------|-----|
 | account  |账户| String|
 | pwd  |密码| String | 
 
 - URL
-http://192.168.56.1:8080/project/Cold_Chain_Logistic/login.php?account=liz&pwd=123
+> http://192.168.56.1:8080/project/Cold_Chain_Logistic/login.php?account=liz&pwd=123
 
 - 请求方式
 
@@ -34,7 +34,7 @@ http://192.168.56.1:8080/project/Cold_Chain_Logistic/login.php?account=liz&pwd=1
 ### 注册
 - 请求参数
 
-|字段  | 描述 | 类型||
+|字段  | 描述 | 类型 |
 |-----|------|-----|
 | account  |账户| String|
 | pwd  |密码| String | 
@@ -43,7 +43,7 @@ http://192.168.56.1:8080/project/Cold_Chain_Logistic/login.php?account=liz&pwd=1
 
 
 - URL
-http://192.168.56.1:8080/project/Cold_Chain_Logistic/register.php?account=liz&pwd=123&signature=123&nickname=123
+> http://192.168.56.1:8080/project/Cold_Chain_Logistic/register.php?account=liz&pwd=123&signature=123&nickname=123
 
 - 请求方式
 > POST
@@ -59,13 +59,13 @@ http://192.168.56.1:8080/project/Cold_Chain_Logistic/register.php?account=liz&pw
 ### 查询IMSI
 - 请求参数
 
-|字段  | 描述 | 类型||
+|字段  | 描述 | 类型 |
 |-----|------|-----|
 | account  |账户| String|
 
 
 - URL
-http://192.168.56.1:8080/project/Cold_Chain_Logistic/query_imsi.php?account=liz
+> http://192.168.56.1:8080/project/Cold_Chain_Logistic/query_imsi.php?account=liz
 
 - 请求方式
 > GET
@@ -80,13 +80,13 @@ http://192.168.56.1:8080/project/Cold_Chain_Logistic/query_imsi.php?account=liz
 ### 储存IMSI
 - 请求参数
 
-|字段  | 描述 | 类型||
+|字段  | 描述 | 类型|
 |-----|------|-----|
 | account  |账户| String|
 
 
 - URL
-http://192.168.56.1:8080/project/Cold_Chain_Logistic/save_imsi.php?imsi=123&account=123
+> http://192.168.56.1:8080/project/Cold_Chain_Logistic/save_imsi.php?imsi=123&account=123
 
 - 请求方式
 >GET
