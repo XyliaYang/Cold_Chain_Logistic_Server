@@ -24,8 +24,14 @@ $sql="SELECT *  FROM user_2_imsi WHERE user_account='{$account}'";
 $result=mysql_query($sql,$connect);
 $datas=array();
 
+
 while ($data=mysql_fetch_assoc($result)){
-    $datas[]=$data['imsi'];
+    $datas[]=json_encode($data['imsi']);
 }
 
-return Response::show(200,'query success',$datas);
+if(count($datas)==0){
+return Response::show(401,'no data');
+}else{
+	return Response::show(200,'query success',$datas);
+}
+
